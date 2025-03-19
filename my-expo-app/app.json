@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "my-expo-app",
+    "slug": "my-expo-app",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/apps.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [],
+    "orientation": "portrait",
+    "icon": "./assets/apps.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/apps.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yashveersoni.myexpoapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a88e13c-2034-48e2-b08f-fc43b4d06ed1"
+      }
+    }
+  }
+}

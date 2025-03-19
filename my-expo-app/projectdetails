@@ -1,0 +1,69 @@
+To tackle this project, you're building a React Native mobile app that allows users to explore GitHub repositories. The app will provide features like searching for repositories, viewing their details, saving favorite repositories, and handling responsive design with error management.
+
+Here’s a breakdown of what you need to do:
+
+1. Search for Repositories:
+Search Bar: You'll need to create a search bar where users can type in the name of a repository.
+API Integration: Use the GitHub REST API to fetch repositories based on the search query. The API will return a list of repositories that match the query.
+2. Repository Details:
+For each repository, you need to display the following information:
+
+Repository Name
+Description
+Number of Stars
+Number of Forks
+Primary Programming Language
+Owner's Username and Avatar
+When users click on a repository, a detailed view should be shown with all the above details.
+
+3. Favorites:
+Mark as Favorite: Allow users to mark repositories as favorites.
+Favorite Repositories Screen: Create a separate screen to display repositories marked as favorites.
+4. Responsive Design:
+Ensure that the app works well on different screen sizes. You'll need to test the design on multiple devices to make sure the layout adapts to different screen resolutions and sizes.
+
+5. Error Handling:
+Handle possible errors like:
+
+API errors: Display a message if there’s an issue fetching data.
+No internet connection: Show an appropriate error message if there’s no connection.
+No repositories found: Provide a message like "No results found" if no repositories match the search query.
+6. State Management:
+Use a state management solution like Redux or React’s Context API to manage the state of your app, such as storing repository search results, favorites, etc.
+
+7. Navigation:
+Use React Navigation (or another navigation library) to handle navigating between screens:
+
+Home Screen: For searching repositories.
+Details Screen: For showing detailed information about a repository.
+Favorites Screen: For displaying favorite repositories.
+8. UI/UX Design:
+The app should be:
+
+Intuitive and easy to use.
+Visually appealing, with smooth animations and an organized layout.
+Use components from libraries like React Native Paper or NativeBase for better UI components or create your own custom styling.
+9. Bonus Features (Optional but Recommended):
+Infinite Scrolling/Pagination: As repositories can be numerous, implement infinite scrolling or pagination to load results as the user scrolls.
+Dark Mode Toggle: Allow users to toggle between light and dark modes.
+Additional Info: Show extra info like repository creation date, last updated date.
+Contributors List: Display the contributors of the repository.
+10. Final Deliverables:
+APK File: You need to build a functional APK file for Android that is ready for testing.
+GitHub Repository: The entire source code should be uploaded to a public GitHub repo. Make sure your README.md includes setup instructions for running the app locally.
+Tech Stack:
+React Native for building the mobile app.
+GitHub REST API for fetching repository data.
+Redux/Context API for state management.
+React Navigation for handling screen navigation.
+Styling can be done using libraries like React Native Paper, Styled Components, or custom styles.
+Evaluation Criteria:
+Functionality: Does the app meet all the required features and work correctly?
+Code Quality: Is your code modular, clean, and well-documented?
+UI/UX: How intuitive and user-friendly is the design of the app?
+Error Handling: Are errors handled gracefully with clear messages?
+Submission: Is the APK file functional and the GitHub repo well-organized?
+Time Constraints:
+You have 48 hours to complete the project, so prioritize the core features first and polish them for a good user experience. You can add the bonus features if time allows.
+
+If you need specific help with any part, feel free to ask!
